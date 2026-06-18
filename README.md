@@ -1,21 +1,25 @@
 # AI-Meeting-Summarizer
 An AI-powered web application that converts long meeting conversations or audio recordings into concise, structured summaries using Flask, Ollama (Llama 3), and Whisper.
+📌 Project Overview
+AI-powered web application to summarize meeting conversations
+Converts long text into short, structured summaries
+Uses LLM (Llama 3 via Ollama) for intelligent summarization
+Built with Flask backend and simple frontend UI
 🚀 Features
-✍️ Paste meeting text and generate instant AI summary
-🎤 (Upcoming) Upload audio recordings for transcription + summary
-🤖 AI-powered summarization using Llama 3 via Ollama
-⚡ Fast Flask backend API
-🌐 Simple and clean frontend UI
-🔄 Real-time response handling with fetch API
+✔ Paste meeting text and generate instant summary
+✔ AI-powered summarization using Llama 3 (Ollama)
+✔ Flask REST API backend
+✔ Clean and simple frontend interface
 🛠️ Tech Stack
 Frontend: HTML, CSS, JavaScript
 Backend: Python, Flask
-AI Models: Ollama (Llama 3), OpenAI Whisper
+AI Model: Ollama (Llama 3)
+Speech-to-Text: OpenAI Whisper (planned)
 Audio Processing: FFmpeg
-API Communication: REST APIs
-📌 How It Works
-User enters meeting text (or uploads audio – upcoming feature)
-Backend processes input using Flask API
-Whisper converts audio → text (if audio input used)
-LLM (Llama 3) summarizes the content
-Output is returned and displayed in the UI
+API Type: REST API
+⚙️ How It Works
+User enters meeting text in the input box
+Frontend sends data to Flask backend
+Backend processes text using Ollama LLM
+AI generates structured summary
+Summary is displayed on UI
